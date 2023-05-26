@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #fff;
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+header img {
+    height:  120px;
+    margin-right: 26px;
+}
+
+header h1 {
+    font-size:  60px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 46px;
+}
+
+form input {
+    font-size:  45px;
+    background-color: #fff;
+    border: solid ;
+    border-bottom: 2px solid #000;
+    padding: 10px;
+}
+
+form button {
+    background-color: blue;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    border-bottom:  3px solid #000;
+    padding:  16px 0;
+    font-size:  24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+thead th {
+    font-size: 40px;
+}
+
+tbody {
+    
+    font-size: 40px;
+}
+
+.riscado {
+    text-decoration: line-through;
+    color: red;
+  }
